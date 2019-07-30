@@ -1,0 +1,11 @@
+<header class="info">
+    <h3 id="websit-name">Zip的秘密花园: <span class="zbi-dir-title" ></span> </h3>
+</header>
+<script src="https://work.ourfor.top/lib/jquery.min.js"></script>
+<script>
+    $(()=>{
+        $('.zbi-dir-title').text($('title').text());
+        $('table').wrap('<div id="zbi-file-list"></div>');
+        $('body').fadeIn('slow');
+    });
+</script>

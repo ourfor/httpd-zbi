@@ -1,0 +1,46 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+body{
+    display: none;
+    text-align: center;
+    background: url('mask_bg.png');
+    background-size: 100% 100%;
+}
+
+header.info{
+    text-align: left;
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+#zbi-file-list{
+    margin: 0 auto;
+    max-width: 800px;
+  }
+#zbi-file-list > table{
+    width: 100%;
+  }
+#zbi-file-list th,.indexhead,.indexhead *{
+    color: red;
+    font-weight: 300;
+    text-align: left;
+    font-size: 1em;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration-line: none;
+}
+
+.indexcolicon > img{
+    width: 25px;
+}
+
+hr{
+    border: 0.5px dashed black;
+}
+
+.indexbreakrow:last-child hr{
+    border-width: 0;
+}
